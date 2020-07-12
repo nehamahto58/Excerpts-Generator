@@ -1,8 +1,7 @@
 body{
     background-image: url("/assets/images/backgroundimage.jpg");
+    background-size:cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
 }
 .herecomes{
     padding: 4%;
@@ -64,10 +63,10 @@ a:hover{
     body{
         background-image: url('/assets/images/bg-mobile.jpg');
         -webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
     }
     #quotes_loc{
         width: 80% !important;
