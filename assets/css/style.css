@@ -63,7 +63,11 @@ a:hover{
 @media(max-width:768px){
     body{
         background-image: url('/assets/images/bg-mobile.jpg');
-        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
     }
     #quotes_loc{
         width: 80% !important;
