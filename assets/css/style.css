@@ -1,0 +1,80 @@
+body{
+    background-image: url("/assets/images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.herecomes{
+    padding: 4%;
+}
+.quotes{
+    font-family: 'Fondamento', cursive;
+    width: 40%;
+    height: auto;
+    padding: 8px; 
+    font-size: 24px;
+    color: white;
+}
+.quotes:hover{
+    color: #f10a40;
+}
+a{
+    color: white;
+}
+a:visted{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+.button-group{
+    padding-bottom: 50px;
+}
+.btn {
+    font-weight: bold;
+}
+#newQuote:hover , #tweet:hover{
+    font-size: 20px;
+}
+#newQuote {
+    background: #E13B63;
+    padding: 10px 25px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#tweet {
+    background: #55acee;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 25px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+
+@media(max-width:768px){
+    body{
+        background-image: url('/assets/images/bg-mobile.jpg');
+        background-repeat: no-repeat;
+    }
+    #quotes_loc{
+        width: 80% !important;
+        height: auto;
+        font-size: 20px;
+        border-color: black;
+        border-radius: 3px;
+        background-color: rgba(247, 85, 193, 0.5);
+    }
+    #quotes_loc:hover{
+        color: rgba(247, 85, 193);
+        background-color: rgba(255,255,255, 0.2);
+    }
+}
